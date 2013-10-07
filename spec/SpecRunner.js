@@ -52,7 +52,8 @@ require(['underscore', 'jquery', 'jasmine-html'], function(_, $, jasmine) {
 
 	var specs = [];
 
-	specs.push('path/to/whateverSpec');
+	//specs.push('path/to/whateverSpec');
+	specs.push('whateverSpec');
 
 	$(function() {
 		require(specs, function() {
